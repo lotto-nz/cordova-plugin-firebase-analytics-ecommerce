@@ -179,6 +179,10 @@ public class FirebaseAnalyticsPlugin extends CordovaPlugin {
                 a.putString(Param.CURRENCY, product.getString("currency"));
             }
 
+            if (!product.getString("item_brand").isEmpty()) {
+                a.putString(Param.ITEM_BRAND, product.getString("item_brand"));
+            }
+
             // index = -1. its a product details page, no need for index or quantity
             if (index != -1) {
                 if (!quantity) {
