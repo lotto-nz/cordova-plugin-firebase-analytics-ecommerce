@@ -1,9 +1,11 @@
+## Repo
+
+This plugin is a copy of the https://www.npmjs.com/package/cordova-plugin-firebase-analytics reporsitory.  This has been modified to include ecommerce tracking for Google Analytics
+
 # cordova-plugin-firebase-analytics<br>[![NPM version][npm-version]][npm-url] [![NPM downloads][npm-downloads]][npm-url]
 > Cordova plugin for [Firebase Analytics](https://firebase.google.com/docs/analytics/)
 
 ## Installation
-
-    cordova plugin add cordova-plugin-firebase-analytics --save
 
 If you need to set a specific dependency version on Android then use variable `FIREBASE_VERSION`.
 
