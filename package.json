@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-firebase-analytics-ecommerce",
+  "name": "@lotto-nz/cordova-plugin-firebase-analytics-ecommerce",
   "version": "0.12.1",
   "description": "Cordova plugin for Firebase Analytics with Ecommerce purchase.  This pluign adds ecommerce tracking to the plugin cordova-plugin-firebase-analytics written by Maksim Chemerisuk",
   "cordova": {
@@ -31,5 +31,6 @@
   "scripts": {
     "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml",
     "postversion": "git push && git push --tags"
-  }
+  },
+  "main": "index.js"
 }
