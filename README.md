@@ -1,6 +1,9 @@
-## Repo
+## Repo and modifications
 
-This plugin is a copy of the https://www.npmjs.com/package/cordova-plugin-firebase-analytics reporsitory.  This has been modified to include ecommerce tracking for Google Analytics
+This plugin is a copy of the https://www.npmjs.com/package/cordova-plugin-firebase-analytics reporsitory.  This has been modified to include ecommerce tracking for Google Analytics.
+
+The src/Android/FirebaseAnalyticsPlugin.java AND src/ios/FirebaseAnalyticsPlugin.m have been modified to include a logPurchases method based on the Code copied from the cordova ionic ecommerce plugin - https://github.com/JABJustaBaby/cordova-plugins-firebaseecommerceanalytics/blob/master/src/android/FirebaseEcommerceAnalytics.java.  
+
 
 # cordova-plugin-firebase-analytics<br>[![NPM version][npm-version]][npm-url] [![NPM downloads][npm-downloads]][npm-url]
 > Cordova plugin for [Firebase Analytics](https://firebase.google.com/docs/analytics/)
