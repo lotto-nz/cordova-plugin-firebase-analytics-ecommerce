@@ -1,9 +1,9 @@
 {
-  "name": "@lotto-nz/cordova-plugin-firebase-analytics-ecommerce",
+  "name": "cordova-plugin-firebase-analytics-ecommerce",
   "version": "0.12.4",
   "description": "Cordova plugin for Firebase Analytics with Ecommerce purchase.  This pluign adds ecommerce tracking to the plugin cordova-plugin-firebase-analytics written by Maksim Chemerisuk",
   "cordova": {
-    "id": "@lotto-nz/cordova-plugin-firebase-analytics-ecommerce",
+    "id": "cordova-plugin-firebase-analytics-ecommerce",
     "platforms": [
       "ios",
       "android"
