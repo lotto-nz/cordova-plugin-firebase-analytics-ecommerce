@@ -1,14 +1,14 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 xmlns:android="http://schemas.android.com/apk/res/android"
-           id="cordova-plugin-firebase-analytics"
+           id="cordova-plugin-firebase-analytics-ecommerce"
       version="0.12.1">
 
     <name>FirebaseAnalyticsPlugin</name>
     <description>Cordova plugin for Firebase Analytics</description>
     <license>MIT</license>
     <keywords>cordova</keywords>
-    <repo>https://github.com/chemerisuk/cordova-plugin-firebase-analytics</repo>
-    <issue>https://github.com/chemerisuk/cordova-plugin-firebase-analytics/issues</issue>
+    <repo>https://github.com/lotto-nz/cordova-plugin-firebase-analytics-ecommerce</repo>
+    <issue>https://github.com/lotto-nz/cordova-plugin-firebase-analytics-ecommerce/issues</issue>
 
     <js-module src="www/FirebaseAnalytics.js" name="FirebaseAnalytics">
         <merges target="cordova.plugins.firebase.analytics" />
